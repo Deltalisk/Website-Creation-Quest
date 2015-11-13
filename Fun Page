@@ -7,8 +7,13 @@
 <style>
 
 .spoiler{
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
 
-  hover: 
+.spoiler:hover{
+
+  color: #000000;
 
 }
 
@@ -19,7 +24,7 @@
 
   <h1>Hunt for the Red Jurassic</h1>
 
-  <p>The Cold War with dinosaurs.</p>
+  <p>The Cold War with <span class="spoiler">Dinosaurs</span>.</p>
 <!--
   <ol>
     <li>Hunt for the Red Jurassic</li>
