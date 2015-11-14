@@ -6,16 +6,92 @@
 
 <style>
 
-.spoiler{
-  background-color: #FFFFFF;
-  color: #FFFFFF;
+h1{
+  font-family: "Comic Sans MS";
+  color: red;
+  text-align: center;
+  font-size: 69px;
+
+  background-color: gray;
+}
+h2{
+  font-family: "Comic Sans MS";
+  color: red;
+  text-align: center;
+  font-size: 45px;
+
+}
+h3{
+  font-family: "Comic Sans MS";
+  color: yellow;
+  font-size: 22px;
+  position: fixed;
+  top: 10;
+
+}
+p{
+  font-family: "Comic Sans MS";
+  color: red;
+  text-align: center;
+  font-size: 36px;
+}
+marquee{
+  font-family: "Comic Sans MS";
+  color: white;
+  font-size: 45px:
+  float: left;
+  top: 180px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  float: left;
+  font-family: "Comic Sans MS";
+
+}
+li {
+  float: left;
+
+}
+a:link, a:visited {
+  display: block;
+  font-weight: bold;
+  color: black;
+  background-color: red;
+  /*width: 120px;*/
+  text-align: center;
+  padding: 4px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin:10%;
+  border-color: white;
+  border:20px;
+}
+a:hover, a:active {
+  color: white;
 }
 
+body{
+  background-color: black;
+}
+
+.spoiler{
+  background-color: black;
+  color: black;
+}
 .spoiler:hover{
 
-  color: #000000;
+  color: red;
 
 }
+
 
 </style>
 
@@ -24,7 +100,9 @@
 
   <h1>Hunt for the Red Jurassic</h1>
 
-  <p>The Cold War with <span class="spoiler">Dinosaurs</span>.</p>
+  <p><a href="Main Page.html">Return to the Main Page</a></p>
+
+  <!-- <p>The Cold War with <span class="spoiler">Dinosaurs</span>.</p> -->
 
   <h2>Quotes</h2>
 
