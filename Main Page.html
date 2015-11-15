@@ -51,31 +51,48 @@
 		top: 0;
 		left: 0;
 		float: left;*/
+		width: 100%;
 		font-family: "Comic Sans MS";
-
+		border: 10px solid red;
 	}
-li:hover{
-	background-color: red;
-	color: black;
-}
-
+	li:hover{
+		background-color: red;
+		color: black;
+		
+	}
+	li{
+		left: 0;
+	
+	}
+	
+	
 	a:link, a:visited {
 		display: block;
 		font-weight: bold;
 		color: black;
-		background-color: red;
+		background-color: gray;
 		/*width: 120px;*/
 		text-align: center;
-		padding: 4px;
+		padding: 10px;
 		text-decoration: underline;
 		text-transform: uppercase;
 		left-margin:50%;
 		right-margin:50%
-		border-color: white;
-		border:20px;
+		border:20px solid red;
 	}
-	a:hover, a:active {
+	
+	a:active {
 		color: white;
+	}
+	
+	a:visited 		{
+		color: red;
+		background-color: #595959;
+		
+	}
+	
+	a:hover {
+		color:white;
 	}
 
 	body{
@@ -91,6 +108,17 @@ li:hover{
 	  color: red;
 
 	}
+	div.container {
+		display:inline-block;
+		
+	}
+	
+	div.fakeLink {
+		font-family: "Comic Sans MS";
+		color: red;
+		text-align: center;
+		font-size: 36px;
+	}
 
 }
 	</style>
@@ -99,7 +127,7 @@ li:hover{
 	<body>
 		background-color: black;
 
-		<marquee behavior="scroll" direction="left">"I r8 8/8 m8" - Rotten Tomatoes User 'Russian_T_Rex'</marquee>
+		<marquee behavior="scroll" direction="left">"I r8 8/8 m8. Really gr8!" - Rotten Tomatoes User 'Soviet_Rex'</marquee>
 
 		<h1>The Hunt for the Red Jurassic</h1>
 
@@ -107,16 +135,29 @@ li:hover{
 
 		<br><p>Starring an all-star duo: </p>
 
-		<br>
-
-		<center><img src="sean_raptor.png" height="360" width="480"></center>
-		<p>Velociraptor as "Velociraptor"</p>
-
+		
+		
+		<div class="container">
+			<center><img src="seanconnery.jpg" height="240" width="360" style="float:center;"></center>
+		</div>
+		<div class="container">
+			<center><img src="raptor.jpg" height="240" width="360" style="float:center;"></center>
+		</div>
+			<center><img src="rex.jpg" height="240" width="360" style="float:center;"></center>
+			<center><img src="jackryan.jpg" height="240" width="360" style="float:center;"></center>
+		<p><br></p>
 		<p>Sean Connery as "Marko Ramius"</p>
+		
+		<p>Velociraptor as "Velociraptor"</p>
+		
+		<p>Tyrannosaurus Rex as "Rex"</p>
+		
+		<p>Alec Baldwin as "Jack Ryan"</p>
+		
 		<p><br><br></p>
-		<p><font size="5">Summoned to a remote island above the arctic circle, Soviet submarine Captain Marko Ramius discvoers that an eccentric admiral
-			has created an undetectable submarine powered by the icthyosaur drive. But Captain Ramius intends to defect. Only one CIA <span class="spoiler">
-				raptor</span> knows this.	It's a race	against	time, the forces of both militaries, and the sea itself. Join Sean Connery as he plays a dangerous hiding game aboard the beast
+		<p><font size="5">Summoned to a remote island above the Arctic Circle, Soviet submarine Captain Marko Ramius discvoers that an eccentric admiral
+			has created an undetectable submarine powered by the icthyosaur drive. But Captain Ramius intends to defect. Only two CIA agents,<span class="spoiler">
+				one a raptor and his partner a man named Jack Ryan,</span> knows this.	It's a race	against	time, the forces of both militaries, and the sea itself. Join Sean Connery as he plays a dangerous hiding game aboard the beast
 			known as <span class="spoiler">"The Red Jurassic"</span></font></p>
 
 			<!--NEEDS MORE DESCRIPTION WITH SPOILERS !-->
@@ -130,12 +171,18 @@ li:hover{
 			</div>
 
 			<h2>References</h2>
+			
+			<div class="fakeLink">
+				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="background-color: black; text-decoration:none;text-transform:none;">Credited Sources</a>
+			</div>
 
-			<p>Because we totally did research</p>
-
-			<ul>
-				<li><a href="http://www.imdb.com/title/tt0099810/?ref_=fn_al_tt_1" target="_blank">The Hunt for the Red October</a></li>
-				<li><a href="http://www.imdb.com/title/tt0107290/?ref_=fn_al_tt_1" target="_blank">Jurassic Park</a></li>
+			<div style="padding: 40px:">
+				<ul>
+					<li><a href="http://www.imdb.com/title/tt0099810/?ref_=fn_al_tt_1" target="_blank">The Hunt for the Red October</a></li>
+					<li><a href="http://www.imdb.com/title/tt0107290/?ref_=fn_al_tt_1" target="_blank">Jurassic Park</a></li>
+				
+				</ul>
+			</div>
 
 	</body>
 
